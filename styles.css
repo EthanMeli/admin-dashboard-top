@@ -6,6 +6,10 @@
   box-sizing: border-box;
 }
 
+body {
+  font-family: 'Roboto', Arial, sans-serif;
+}
+
 .container {
   display: grid;
   grid-template-columns: 1fr 4fr;
