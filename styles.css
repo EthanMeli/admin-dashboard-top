@@ -66,7 +66,8 @@ body {
   gap: 2rem;
 }
 
-.header-right > img {
+.header-right > img,
+.user-card > img {
   width: 2.5rem;
   height: 2.5rem;
   border-radius: 30px;
@@ -188,7 +189,7 @@ body {
 
 .text > p,
 .announcement > p,
-.trending > p {
+.tagline {
   color: gray;
 }
 
@@ -212,6 +213,7 @@ body {
 .announcement {
   border-bottom: 1px solid gray;
   padding-bottom: 1rem;
+  overflow: hidden;
 }
 
 .announcement:last-child {
@@ -236,4 +238,17 @@ body {
 .icons > svg {
   width: 1.25rem;
   height: 1.25rem;
+}
+
+.trending {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.user-card {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
 }
