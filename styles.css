@@ -60,6 +60,10 @@ body {
   flex-direction: column;
   gap: 2rem;
   grid-row: 1 / 3;
+  background-color: rgba(199, 74, 36, 0.719);
+  color: white;
+  fill: white;
+  padding: 1rem;
 }
 
 .side-item {
@@ -70,11 +74,19 @@ body {
 .side-item > svg {
   width: 1.5rem;
   height: 1.5rem;
+
+  margin-right: 0.5rem;
 }
 
 .side-item > .dashboard-icon {
   width: 3rem;
   height: 3rem;
+}
+
+.navigation > .side-item,
+.utilities > .side-item {
+  padding: 0.25rem 0 0.25rem 0.75rem;
+  margin-bottom: 0.5rem;
 }
 
 .card-container {
